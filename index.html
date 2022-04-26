@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <!-- header, section, nav, minimize number of divs in html// both need work, css needs the most work// Keep it DRY= Don't Repeat Yourself, Keep it WET= We Enjoy Typing//ID=specific section, class= repeating needs// ctrl+1= open terminal in vscode-->
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -9,7 +8,7 @@
 
   <body>
     <header>
-      <h1>Hori<span class="seo">seo</span>n</h1>
+      <h1>Hori<span id="seo">seo</span>n</h1>
       <nav>
         <ul>
           <li>
@@ -31,8 +30,8 @@
       src="assets/images/digital-marketing-meeting.jpg"
       alt="Digital Marketing Meeting"
     />
-    <section class="content">
-      <article class="search-engine-optimization">
+    <main id="content">
+      <article id="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           alt="Search Engine Optimization"
@@ -46,10 +45,7 @@
           visibility and find the right customers for your business.
         </p>
       </article>
-      <article
-        id="online-reputation-management"
-        class="online-reputation-management"
-      >
+      <article id="online-reputation-management">
         <img
           src="./assets/images/online-reputation-management.jpg"
           alt="Online Reputation Management"
@@ -64,7 +60,7 @@
           business.
         </p>
       </article>
-      <article id="social-media-marketing" class="social-media-marketing">
+      <article id="social-media-marketing">
         <img
           src="./assets/images/social-media-marketing.jpg"
           alt="Social Media Marketing"
@@ -78,11 +74,10 @@
           your lead generation.
         </p>
       </article>
-    </section>
+    </main>
 
-    <!-- Is div the appropriate element to use for the following asides content? -->
-    <aside class="benefits">
-      <div class="benefit-lead">
+    <aside id="benefits">
+      <div id="benefit-lead">
         <h3>Lead Generation</h3>
         <img src="./assets/images/lead-generation.png" alt="Lead Generation" />
         <p>
@@ -90,7 +85,7 @@
           business, bringing customers directly to your website.
         </p>
       </div>
-      <div class="benefit-brand">
+      <div id="benefit-brand">
         <h3>Brand Awareness</h3>
         <img src="./assets/images/brand-awareness.png" alt="Brand Awareness" />
         <p>
@@ -98,7 +93,7 @@
           the search ranking and visibility for your business.
         </p>
       </div>
-      <div class="benefit-cost">
+      <div id="benefit-cost">
         <h3>Cost Management</h3>
         <img src="./assets/images/cost-management.png" alt="Cost Management" />
         <p>
