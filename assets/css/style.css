@@ -101,23 +101,7 @@ h3 img {
   max-width: 150px;
 }
 
-#benefit-lead img {
-  margin-bottom: 10px;
-  text-align: center;
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-#benefit-brand img {
-  margin-bottom: 10px;
-  text-align: center;
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-#benefit-cost img {
+#benefits :is(#benefit-lead, #benefit-brand, #benefit-cost) img {
   margin-bottom: 10px;
   text-align: center;
   display: block;
